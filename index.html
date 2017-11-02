@@ -9,11 +9,12 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <h1>Alpha M@STER</h1>
+        <h1>Alpha M@STER (非公式)</h1>
+        <a href="#howtouse">つかいかた</a>
         <div id="selectFile">
-            <p>タップで選択
+            <p>タップで画像を選択
         </div>
-        <input type="file" id="selectFileInput">
+        <input type="file" id="selectFileInput" accept="image/*">
         <h2>クロマキー選択</h2>
         <select id="chromaKey">
             <!-- r,g,b -->
@@ -28,5 +29,18 @@
         ↓長押しとかで保存してください
         <img id="result">
         <p>Created by <a href="https://rinsuki.github.io">rinsuki</a>.
+        <p>Source Code: <a href="https://github.com/cinderella-project/alpha-master">cinderella-project/alpha-master</a>
+        <hr>
+        <h2 id="howtouse">つかいかた</h2>
+        <ol>
+            <li>デレステの「メニュー」→「プロデュースノート」→好きなアイドルを選ぶ→「フォトスタジオ」を選択
+            <li>撮影スポットを「スクリーン キュート」「スクリーン クール」「スクリーン パッション」のどれかにする(できるだけアイドルの衣装等と似ていない色がおすすめ)
+            <li>好きなポーズや視点でバシャバシャスクショを撮る(スクショの撮り方は端末によって違うのでここでは省略、Googleとかで検索してね)
+            <li>このページを開いて「タップで画像を選択」のところをタップしてさきほど撮ったスクショを選択
+            <li>クロマキー選択のところの下の「キュート」と書かれているところをタップ、さきほど選んだ撮影スポットの「スクリーン」のあとにあわせる
+            <li>「ST@RT!!」を押す
+            <li>結果の下あたりに白背景の画像が表示されているはずなので画像長押しなどで保存(端末やブラウザによって違うかも)
+            <li>おわり
+        </ol>
     </body>
 </html>
