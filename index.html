@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alpha M@STER</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Alpha M@STER</h1>
+        <div id="selectFile">
+            <p>タップで選択
+        </div>
+        <input type="file" id="selectFileInput">
+        <h2>クロマキー選択</h2>
+        <select id="chromaKey">
+            <!-- r,g,b -->
+            <option value="239,3,102">キュート</option>
+            <option value="0,97,255">クール</option>
+            <option value="255,168,2">パッション</option>
+        </select>
+        しきい値: <input type="number" id="sikii" min="1" max="255" value="20">
+        <button id="start">ST@RT!!</button>
+        <canvas id="canvas"></canvas>
+        <h2>結果</h2>
+        ↓長押しとかで保存してください
+        <img id="result">
+    </body>
+</html>

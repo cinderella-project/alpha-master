@@ -1,0 +1,23 @@
+#selectFile {
+    padding: 2em 1em;
+    border: 0.25em dashed rgba(0,0,0,0.2);
+    text-align: center;
+}
+#chromaKey {
+    width: 100%;
+    font-size: 150%;
+}
+#start {
+    font-size: 150%;
+}
+#canvas{
+    display: none;
+}
+#start {
+    margin: 1em 0;
+    width: 100%;
+}
+#result {
+    display: block;
+    max-width: 90vw;
+}
