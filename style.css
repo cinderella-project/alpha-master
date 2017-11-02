@@ -21,3 +21,6 @@
     display: block;
     max-width: 90vw;
 }
+#selectFile {
+    margin: 1em;
+}
